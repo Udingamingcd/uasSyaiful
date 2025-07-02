@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami | Explorasi Antariksa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="comet"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo-politeknik.png" alt="Logo Antariksa"><h1>EXPLORASI ANGKASA</h1><img src="images/logoPSDKU.png" alt="Logo Antariksa">
+            </div>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="planets.html">Planet</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="content">
+                <article>
+                    <h2>Hubungi Kami</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </article>
+            </section>
+
+            <aside class="widget">
+                <div class="widget-box">
+                    <h3>Informasi Kontak</h3>
+                    <p><a href="https://wa.me/6282384939468" class="contact-link" target="_blank">
+                        <i class="icon">📱</i> WhatsApp: 0823-8493-9468
+                    </a></p>
+                    <p><a href="mailto:muhammadsyaiful2601@gmail.com" class="contact-link" target="_blank">
+                        <i class="icon">✉️</i> Email: muhammadsyaiful2601@gmail.com
+                    </a></p>
+                    <p><strong>Alamat:</strong> Nagari pangian kec Lintau buo</p>
+                </div>
+            </aside>
+        </main>
+
+        <div class="widget-container">
+            <div class="widget-box">
+                <h3>Jam Operasional</h3>
+                <p id="jamRealTime"></p>
+            </div>
+
+            <div class="widget-box">
+                <h3>Hubungi Kami Langsung</h3>
+                <a href="https://wa.me/6282384939468" class="btn-wa" target="_blank">
+                    <i class="icon">💬</i> Chat via WhatsApp
+                </a>
+                <a href="mailto:muhammadsyaiful2601@gmail.com" class="btn-email" target="_blank">
+                    <i class="icon">📧</i> Kirim Email
+                </a>
+            </div>
+            <div class="widget-box">
+                <h3>Kampus saya</h3>
+                <img src="images/psdku.JPG" alt="Lokasi Kantor">
+                <p>Kampus saya terletak di Tanah Datar.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025,by Muhammad Syaiful.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
